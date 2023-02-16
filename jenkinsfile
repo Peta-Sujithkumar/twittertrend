@@ -3,7 +3,7 @@ def registry = 'https://infoscion.jfrog.io'
 pipeline{
     agent {
         node {
-            label "slave"
+            label "java_slave"
         }
     }
     environment {
